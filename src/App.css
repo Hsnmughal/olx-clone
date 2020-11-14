@@ -1,0 +1,393 @@
+/* HEADER1 START*/
+/* navbar sticky start */
+.stickyDiv{
+  position: fixed !important;
+  z-index: 2000 !important;
+  width: 100%;
+}
+/* navbar sticky end */
+.logo {
+  margin: 0.3em 1em 1em 0em !important;
+}
+.location {
+  margin: 0em 0.2em 01em 0em !important;
+}
+.custom-select {
+  border: none !important;
+  width: 100px;
+  outline: none !important;
+}
+.sicon {
+  position: relative;
+  top:8px;
+}
+.form {
+  margin: 0px auto;
+  border: 2px solid black !important;
+  border-radius: 7px !important;
+  width: 100% !important;
+}
+.btn1 {
+  border: none !important;
+  background-color: black !important;
+}
+.btn1:hover {
+  background-color: black !important;
+}
+.iconn {
+  color: white !important;
+}
+.login {
+  font-weight: bold !important;
+  border: none !important;
+  outline: none !important;
+}
+.login:hover {
+  background-color: transparent !important;
+}
+.log:hover {
+  border-bottom: 2px solid black;
+}
+.log:focus {
+  outline: none !important;
+}
+.sell {
+  border: none !important;
+  background-color: transparent !important;
+}
+.sell:focus {
+  outline: none !important;
+}
+/* HEADER1 END */
+/* HEADER2 START*/
+
+.header2 {
+  font-weight: bold !important;
+  padding-top: 65px;
+}
+.navdd:hover {
+  background-color: transparent !important;
+  color: rgb(0, 182, 182) !important;
+}
+.navdd {
+  color: black !important;
+  font-weight: lighter !important;
+  font-size: small !important;
+}
+.navl {
+  font-weight: 400 !important;
+  color: black !important;
+}
+.navl:hover {
+  color: rgb(0, 182, 182) !important;
+}
+.navh{
+  font-weight: 500 !important;
+}
+.navh:hover {
+  background-color: transparent !important;
+  color: rgb(0, 182, 182) !important;
+}
+.drpd {
+  width: 100% !important;
+}
+/* HEADER2 END */
+/* images */
+.uImg {
+  background-image: url(https://statics.olx.com.pk/external/base/img/hero_bg_pk.jpg);
+  background-position:50% !important;
+  height: 252px;
+  width: 100%;
+  align-self: center;
+  background-repeat: no-repeat;
+  outline: 1px solid white;
+  outline-offset:-1px;
+}
+.lImg {
+  margin: 2em;
+  background-image: url(https://tpc.googlesyndication.com/simgad/1123053959195589078);
+  background-position:50% !important;
+  height: 250px;
+  width: 100%;
+  /* align-self: center; */
+  background-repeat: no-repeat;
+  outline: 1px solid white;
+  outline-offset:-1px;
+}
+/* images end */
+/* card carousal s*/
+.llight {
+  padding-bottom: 5vh !important;
+  margin-bottom: 5vh !important;
+}
+.card {
+  height: fit-content !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+  max-height: 330px;
+  width: calc(100% - 12px) !important;
+  margin-bottom: 1vh !important;
+} 
+.cardRedirector{
+  padding: 8px;
+  cursor: pointer;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: #3a77ff !important;
+  height: 330px !important;
+}
+.crHeading{
+  margin: 10px auto;
+  font-size: 15px !important;
+  font-weight:650;
+  color: whitesmoke;
+}
+.crBody{
+  text-align: center;
+  font-weight: 500;
+  margin: 10px auto;
+  font-size: 12px !important;
+  color: whitesmoke;
+}
+.crBtn{
+  margin-top: 11em !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  
+}
+.crBtn:hover {
+  box-shadow: 2px 3px 4px whitesmoke !important;
+  background-color: transparent !important;
+  color: whitesmoke !important;
+}
+.crBtn:active {
+  background-color: whitesmoke !important;
+  color: gray !important;
+  box-shadow: 3px 3px 6px gray !important;
+}
+.ctxt {
+  font-size: 13px;
+  font-weight: 300 !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+  text-overflow: ellipsis !important;
+  margin-top: 5px !important;
+}
+.carousel-indicators li {
+  display: none !important;
+}
+.fIcon {
+  position: relative;
+  top: 10px;
+}
+.featured {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 4px 8px 4px 8px !important;
+  border: none;
+  margin-left: 8px;
+  border-radius: 4px 3px 3px 3px;
+  background-color: #ffce32;
+  color: #002f34;
+  width: fit-content;
+}
+.heartBtn {
+  background-color: transparent !important;
+  border: none !important;
+  outline: none !important;
+}
+.heartBtn:focus {
+  border: none !important;
+  outline: none !important;
+}
+.heart {
+  margin-right: 8px;
+}
+.heart2{
+  margin-right: 8px;
+  fill: red !important;
+}
+.color {
+  border-left: 7px solid #ffce32;
+  border-radius: 4px;
+  justify-content: left !important;
+}
+.locationn {
+  font-size: xx-small;
+  font-weight: 700;
+  width: 100%;
+  color: rgba(0,47,52,.64);
+  text-transform: uppercase;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.date {
+  color: rgba(0,47,52,.64);
+  text-transform: uppercase;
+  text-align: left;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: xx-small;
+  font-weight: 700; 
+  float: right;
+}
+/* card carousal e*/
+/* recommended cards s*/
+.cardDiv {
+  margin-bottom: 5vh !important;
+}
+/* recommended cards e*/
+/* loadmore s*/
+.loadMore{
+  font-size: 14px !important;
+  font-weight: 900 !important;
+  background-color: transparent !important;
+  border: 4px solid #002f34 !important;
+  color: #002f34 !important;
+  margin-bottom: 5vh !important;
+}
+.loadMore:hover {
+  box-shadow: 2px 3px 4px black !important;
+}
+.loadMore:active {
+  border: 4px solid gray!important;
+  background-color: gray !important;
+  color: whitesmoke !important;
+  outline: none !important;
+  box-shadow: -2px -3px 4px black !important;
+}
+/* loadmore e*/
+/* prefooter s*/
+.svgBtn {
+  margin: 0vh 5px !important;
+}
+.tDivd {
+  width: 2px;
+  margin-top: 3em;
+  background-color: rgba(0,47,52,.2);
+  border: 0 solid rgba(0,47,52,.2);
+  height: 136px;
+}
+/* prefooter e*/
+
+/* footer S*/
+.mfDiv {
+  /* background-color: rgb(211, 211, 211); */
+  background-color: #e4e4e4;
+  border-top: 1px solid rgba(0,47,52,.2);
+  padding: 2vh 0vh 4vh 0vh !important;
+}
+.footH {
+  color: #002f34 !important;
+  font-size: small !important;
+  font-weight: 700 !important;
+  flex-basis: 20% !important;
+  padding-bottom: 2vh !important;
+}
+.footHH {
+  color: #002f34 !important;
+  font-size: small !important;
+  font-weight: 700 !important;
+  flex-basis: 20% !important;
+}
+.footC {
+  font-weight: 400 ;
+  cursor: pointer ;
+  font-size: 12px ;
+  color: rgba(0,47,52,.64) ;
+}
+.footCC {
+  font-weight: 400 ;
+  cursor: pointer ;
+  font-size: 12px ;
+  fill : rgba(0,47,52,.64) ;
+}
+.footC:hover {
+  color: black !important;
+}
+/* footer e*/
+/* postfooter S*/
+.countries {
+  text-decoration: none !important;
+  color: whitesmoke !important;
+}
+/* postfooter e*/
+/* modal */
+.modalWidth {
+  width: 400px !important;
+}
+.close {
+  outline: none !important;
+}
+.modalC {
+  display: flex;
+  justify-content: center;
+}
+.modalBtns {
+  font-size: 14px !important;
+  font-weight: 900 !important;
+  background-color: transparent !important;
+  border: 3px solid #002f34 !important;
+  color: #002f34 !important;
+}
+.modalBtns:hover {
+  box-shadow: 2px 3px 4px  #002f34 !important;
+}
+.modalBtns:active {
+  border: 3px solid gray!important;
+  background-color: gray !important;
+  color: whitesmoke !important;
+  outline: none !important;
+}
+.modalBtns:active .modalSvg {
+  fill:whitesmoke !important;
+}
+.Tos:hover {
+  text-decoration: none;
+  color: #3a77ff;
+}
+.ddd{
+  border: none !important;
+  outline: none !important;
+
+}
+.ddd:focus { 
+  outline: none !important;
+}
+.dm {
+  width: 298px !important;
+}
+.hh {
+  font-size : 20px !important;
+  font-weight : 700 !important; 
+  line-height : 24px !important;  
+  color: #002f34 !important;
+  margin-bottom: 0 !important;
+}
+.aa{
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  text-decoration: underline !important;
+  color: #002f34!important;
+}
+.ddItems{
+  max-width: 100%;
+  padding: 0.6em 1em 0.6em 1.5em !important;
+}
+.ddItems:hover {
+  background-color: rgba(0, 255, 255, 0.349) !important;
+}
+.logout {
+  cursor: pointer !important;
+}
+.CF {
+  padding-top: 75px;
+}
